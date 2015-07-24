@@ -1,0 +1,91 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width : 766px) {
+	.navbar-default{
+		padding-top: 12px;
+	}
+
+	.navbar-nav {
+		margin: 25px 0px;
+	}
+
+	.nav>li {
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-bottom: 5px;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		padding: 5px 25px;
+	}
+
+	.footer-widget-one{
+		text-align: center;
+	}
+
+	.footer-widget-three{
+		text-align: center;
+		float: none !important;
+	}
+
+	.copyright-section li{
+		padding-right: 10px;
+	}
+
+
+
+}
+
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+
+	/*navigation*/
+	.nav>li {
+	    padding-right: 8px;
+	}
+
+	
+	.copyright-section li{
+		padding-right: 10px;
+	}
+
+
+
+	.blog-standard-post {
+		margin-bottom: 50px;
+	}
+
+
+
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+
+	/*navigation*/
+	.nav>li {
+	  padding-right: 10px;
+	}
+
+	.navbar-form .form-control{
+	  padding: 6px 15px;
+	}
+
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) and (max-width : 1280px) {
+
+
+}
+

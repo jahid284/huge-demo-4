@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Huge</title>
+
+        <!-- web-fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!-- font-awesome -->
+        <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <!-- off-canvas css -->
+        <link href="assets/css/hippo-off-canvas.css" rel="stylesheet">
+        <!-- prettyPhoto -->
+        <link href="assets/prettyPhoto/css/prettyPhoto.css" rel="stylesheet">
+        <!-- Revulation Slider CSS -->
+        <link href="assets/rs-plugin/css/settings.css"  rel="stylesheet" media="screen" />
+        <!--owl carousel -->
+        <link href="assets/owl.carousel/assets/owl.theme.min.css" rel="stylesheet">
+        <link href="assets/owl.carousel/assets/owl.carousel.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">    
+        <!-- Style CSS -->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <!-- Responsive CSS -->
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+
+    <body>
+      <div id="main-wrapper">
+          <!-- offcanvas-menu start -->
+          <div class="offcanvas-menu offcanvas-effect visible-xs">
+            <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas" id="off-canvas-close-btn">&times;</button>
+            <h1>Huge sidebar Menu</h1>
+            <div>
+              <div>
+              <ul id="menu">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="#">Blog</a>
+                  <ul>
+                    <li><a href="blog.html">Standard Blog</a></li>
+                    <li><a href="blog-single.html">Single Post</a></li>
+                  </ul>
+                </li>
+
+                <li><a href="#">Portfolio</a>
+                  <ul>
+                    <li><a href="portfolio-four.html">Four Column</a></li>
+                    <li><a href="portfolio-three.html">Three Column</a></li>
+                    <li><a href="portfolio-two.html">Two Column</a></li>
+                    <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                  </ul>
+                </li>
+
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <!-- offcanvas-menu end -->
+          <div class="offcanvas-pusher">
+              <div class="content-wrapper">
+                <!-- Header Section -->
+                <header>
+                    <div class="container">
+                        <!-- Header Top -->
+                        <div class="header-top hidden-xs">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <!-- User Notification -->
+                                    <div class="user-notification">
+                                        <ul class="list-inline">
+                                            <li><a href=""><i class="fa fa-lock"></i></a></li>
+                                            <li><a href=""><i class="fa fa-user"></i></a></li>
+                                            <li><a href=""><i class="fa fa-envelope-o"></i></a></li>
+                                        </ul>
+                                    </div><!-- /.User Notification -->
+                                </div>             
+                                <div class="col-sm-4">
+                                    <!-- Logo -->
+                                    <div class="logo text-center">
+                                        <a href=""><img src="assets/img/logo.png" alt=""></a>
+                                    </div><!-- /.Logo -->
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <!-- Social Icon -->
+                                    <div class="social-icon pull-right">
+                                        <ul class="list-inline">
+                                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                                            <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div><!-- /.Social Button -->
+                                </div>
+                            </div>
+                        </div><!-- /.Header Top -->
+                    </div><!-- /.container -->
+
+                    <!-- Navigation -->
+                    <nav class="navbar navbar-default">
+                        <div class="container">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand visible-xs" href="#">
+                                    <img src="assets/img/logo.png" alt="">
+                                </a>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-left">
+                                    <li><a href="index.html">HOME</a></li>
+                                    <li><a href="service.html">services</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li class="dropdown active">
+                                        <a data-toggle="dropdown" role="button">PORTFOLIO <span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="portfolio-four.html">Portfolio Four Columns</a></li>
+                                            <li class="active"><a href="portfolio-three.html">Portfolio Three Columns</a></li>
+                                            <li><a href="portfolio-two.html">Portfolio Two Columns</a></li>
+                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a data-toggle="dropdown" role="button">BLOG <span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="blog.html">Standard blog post</a></li>
+                                            <li><a href="blog-single.html">single blog post</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">CONTACT</a></li>
+                                </ul>
+                                <form class="navbar-form pull-right from-search hidden-xs hidden-sm" role="search">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </form>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container -->
+
+                    </nav><!-- /.Navigation -->
+                </header><!-- /.Header Section End -->
+
+                <section class="pagination-nav-area gray-bg">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <h1>Portfolio</h1>
+                      </div>
+                      <div class="col-xs-6">
+                        <ul class="pull-right list-inline">
+                          <li><a href="index.html">Home <i class="fa fa-angle-double-right"></i></a></li>
+                          <li class="active"><a href="portfolio-two.html">portfolio - 3 columns</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </section><!-- /.pagination-nav-area -->
+
+
+                <!-- portfolio-section start -->
+                <section class="portfolio-area ptb-100">
+                  <div class="container">
+                    <div class="portfolio-filter clearfix text-center">
+                      <ul class="list-inline" id="filter">
+                          <li><a class="active" data-group="all">All</a></li>
+                          <li><a data-group="business">Business</a></li>
+                          <li><a data-group="website">Website</a></li>
+                          <li><a data-group="logo">Logo</a></li>
+                          <li><a data-group="photoshop">Photoshop</a></li>
+                      </ul>
+                    </div>
+                    <div class="row three-column">
+                      <div id="gridWrapper" class="clearfix">
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper " data-groups='["all", "website", "logo"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-1.jpg" alt="">
+
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-1.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper" data-groups='["all", "business", "website", "photoshop"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-2.jpg" alt="">
+                            
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-2.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper " data-groups='["all", "logo", "photoshop"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-3.jpg" alt="">
+
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-3.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper" data-groups='["all", "logo", "website", "business"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-4.jpg" alt="">
+                            
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-4.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->           
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper" data-groups='["all", "business", "website", "photoshop"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-5.jpg" alt="">
+
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-5.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper" data-groups='["all", "business", "website", "logo"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-6.jpg" alt="">
+
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-6.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper" data-groups='["all", "business", "website", "photoshop"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-7.jpg" alt="">
+                            
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-7.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper" data-groups='["all", "business", "website", "photoshop"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-8.jpg" alt="">
+
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-8.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper " data-groups='["all", "logo", "photoshop"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-9.jpg" alt="">
+
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-9.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper" data-groups='["all", "business", "website", "photoshop"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-10.jpg" alt="">
+                            
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-10.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper " data-groups='["all", "website", "logo"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-11.jpg" alt="">
+
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-11.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper " data-groups='["all", "logo", "photoshop"]'>
+                          <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/three-column/portfolio-4.jpg" alt="">
+
+                            <div class="portfolio-content">
+                              <div class="portfolio-info">
+                                <h3>STATIONARY DESIGN</h3>
+                                <a class="small" href="#">Business</a> /
+                                <a class="small" href="#">Marketing</a>
+                              </div><!-- portfolio-info -->
+
+                              <div class="pop-up-icon">
+                                <a class="img-link" data-gal="prettyPhoto[pp_gal]" href="assets/img/portfolio/three-column/portfolio-4.jpg"><i class="fa fa-plus"></i></a>
+                              </div> <!-- pop-up-icon -->
+                            </div> <!-- portfolio-content -->
+
+                          </div><!-- /.portfolio-thumb -->
+                        </div>
+                      </div><!--/#gridWrapper-->
+                    </div><!-- /.row -->
+                    <div class="text-center portfolio-btn">
+                      <a href="#" class="btn">Load More</a>
+                    </div>
+                  </div> <!-- /.container -->
+                </section> <!--/.portfolio-area-->
+                <!-- portfolio-section end -->
+
+                <!-- Footer Section -->
+                <footer class="footer-section">
+
+                  <!-- Footer Widget Section -->
+                  <div class="footer-widget-section ptb-100">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-4 clearfix">
+                          <div class="footer-widget-one">
+                            <address>
+                              <a href="mailto:someone@yoursite.com">hello@huge.com</a> | 3333 222 1111
+                            </address>
+                          </div>
+                        </div><!-- /.col-sm-4 -->
+
+
+                        <div class="col-sm-4 ">
+                          <div class="footer-widget-two text-center">
+                            <div class="footer-logo">
+                              <a href=""><img src="assets/img/footer-logo.png" alt=""></a>
+                            </div>
+                          </div>    
+                        </div><!-- /.col-sm-4 -->
+                        
+
+                        <div class="col-sm-4 clearfix">
+                          <div class="footer-widget-three pull-right">
+                            <ul class="footer-social-link list-inline">
+                              <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                              <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+                              <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+                              <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                          </div>
+                        </div><!-- /.col-sm-4 -->
+                      </div>
+                    </div>
+                  </div><!-- /.Footer Widget Section -->
+                  
+                  <!-- Footer Copyright Section -->
+                  <div class="copyright-section">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-xs-8">
+                          <ul class="list-inline">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Contact</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="col-xs-4 clearfix">
+                          <span class="pull-right">&copy; GFXPARTNER</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- /.Footer Copyright Section -->
+                </footer><!-- /.Footer Section -->
+
+              </div> <!-- /.content-wrapper -->
+          </div> <!-- .offcanvas-pusher -->
+      </div><!-- /#main-wrapper -->
+
+
+      <!-- Preloader -->
+      <div id="preloader">
+        <div id="status">
+          <div class="status-mes"></div>
+        </div>
+      </div>
+
+
+        <!-- jQuery -->
+        <script src="assets/js/jquery-2.1.4.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/smoothscroll.js"></script>
+        <script src="assets/js/jquery.countTo.js"></script>
+        <script src="assets/js/coundown-timer.js"></script>
+        <script src="assets/js/jquery.shuffle.min.js"></script>
+        <script src="assets/js/jquery.stellar.js"></script>
+        <script src="assets/js/jquery.inview.min.js"></script>
+        <script src="assets/js/hippo-offcanvas.js"></script>
+        <script src="assets/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+        <script src="assets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+        <script src="assets/flexSlider/jquery.flexslider-min.js"></script>
+        <script src="assets/owl.carousel/owl.carousel.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
